@@ -1,0 +1,13 @@
+[package]
+name = "librtest"
+version = "0.1.0"
+authors = ["Ruvinda Dhambarage <ruvinda@wso2.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[lib]
+name = "rtest"
+crate-type = ["staticlib"]
+
+[dependencies]
